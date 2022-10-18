@@ -1,15 +1,9 @@
 
-function Contact({numbers}) {
+function Posts() {
 
   return (
-    <>
-      <div>
-        {numbers.map((n, i) => (
-          <p key={i}>{n}</p>
-        ))}
-      </div>
-    </>
+    <div></div>
   );
 };
 
-export default Contact
+export default Posts

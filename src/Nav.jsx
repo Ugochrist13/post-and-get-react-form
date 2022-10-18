@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom';
 
-const Navbar = () => {
+const Nav = () => {
     return (
         <div padding={"1.5rem 2rem"} alignItems="center" justifyContent={"space-between"}>
             <NavLink to="/"><p cursor={"pointer"}>Posts</p></NavLink>
@@ -13,4 +13,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Nav;
